@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+background-image: url(image/fbba205bcd1c1d285997dd24a0b667a5.jpg);
+background-size: cover;
+}
+.container{
+    margin-top: 20px;
+    backdrop-filter: blur(20px);
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 440px;
+    width: 470px;
+    background-color: transparent
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+
+}
+.header h1{
+    text-align: center;
+    font-size: 38px;
+    color: whitesmoke;
+    margin-top: 30px;
+    font-family: poppins, sans-serif;
+}
+.input-box input{
+    width: 400px;
+    height: 50px;
+    margin-left: 20px;
+    border-radius: 40px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-size: 20px;
+    border-color: bisque;
+}
+.input-box ::placeholder{
+    padding: 10px;
+}
+.hlo{
+    font-size: 18px;
+color: white;
+font-family: poppins, sans-serif;
+margin-left: 24px;
+margin-bottom: 25px;
+}
+.hlo a{
+color: white;
+margin-left: 80px;
+}
+.wrapper button{
+    width: 400px;
+    height: 50px;
+    margin-left: 20px;
+    border-radius: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    border-color: white;
+}
+.wrapper button:hover{
+    background-color: aquamarine;
+    color: white;
+ transition: 0.3s ease;
+}
+.hannan{
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 15px;
+    color: white;
+}
+.hannan a{
+    color: white;
+}
+
